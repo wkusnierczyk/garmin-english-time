@@ -1,0 +1,66 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <string id="AppName">EnglishTime</string>
+
+    <!-- Words used for hours (:1 to :12) -->
+    <jsonData id="Hours">[
+        "twelve",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven"
+    ]</jsonData>
+
+    <!-- Words used for minute ones (:1 to :9)-->
+    <jsonData id="Ones">[
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine"
+    ]</jsonData>
+
+    <!-- Words used for minute teens (:10 to :19) -->
+    <jsonData id="Teens">[
+        "ten",
+        "eleven",
+        "twelve",
+        "thirteen",
+        "fourteen",
+        "fifteen",
+        "sixteen",
+        "seventeen",
+        "eighteen",
+        "nineteen"
+    ]</jsonData>
+
+    <!-- Words used for minute tens (:10, :20, :30, :40, :50) -->
+    <jsonData id="Tens">[
+        "twenty",
+        "thirty",
+        "forty",
+        "fifty"
+    ]</jsonData>
+
+    <!-- Words used for time with zero minutes (:00) or minute ones (:01 to :09) only -->
+    <jsonData id="Minutes">{
+        "Zero": "o'clock",
+        "Unit": "oh"
+    }</jsonData>
+
+    <!-- Separator between minute tens and ones words -->
+    <string id="Separator"> </string>
+
+</resources>
