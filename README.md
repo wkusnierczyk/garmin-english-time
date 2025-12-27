@@ -6,6 +6,8 @@ A minimalist, elegant, typography-focused Garmin Connect IQ watch face that disp
 ![08:28](resources/graphics/08-28.png)
 ![12:00](resources/graphics/12-00.png)
 
+Available from [Garmin Connect IQ Developer portal](https://apps.garmin.com/apps/edae124d-82cc-4572-9ed4-582def4df31b).
+
 ## Features
 
 * **Text-Based Time:** Converts digital time into English words.
