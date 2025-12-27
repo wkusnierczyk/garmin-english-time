@@ -4,3 +4,8 @@ resources/fonts/AsapCondensed-Light.ttf filter=lfs diff=lfs merge=lfs -text
 resources/fonts/AsapCondensed-Bold-80.png filter=lfs diff=lfs merge=lfs -text
 resources/fonts/AsapCondensed-Light-40.png filter=lfs diff=lfs merge=lfs -text
 resources/graphics filter=lfs diff=lfs merge=lfs -text
+resources/graphics/01-01.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/08-28.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/12-00.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/EnglishTimeCapture.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/EnglishTimeHero.png filter=lfs diff=lfs merge=lfs -text
