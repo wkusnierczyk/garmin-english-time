@@ -17,10 +17,6 @@ class EnglishTimeView extends WatchUi.WatchFace {
         var hour = clockTime.hour;
         var minutes = clockTime.min;
 
-        // For debugging only
-        hour = 12;
-        minutes = 0;
-
         var hourString = EnglishTime.getHourWord(hour);
         var minutesString = EnglishTime.getMinutesWord(minutes);
 
