@@ -3,7 +3,11 @@
     <iq:application id="bcaf29d6-b2a9-4cc9-b810-f70fef436ff1" type="watchface" name="@Strings.AppName" entry="EnglishTimeApp" launcherIcon="@Drawables.LauncherIcon" minApiLevel="1.2.0">
         <iq:products>
             <iq:product id="epix2pro47mm"/>
+            <iq:product id="fenix7pronowifi"/>
+            <iq:product id="fenix7x"/>
+            <iq:product id="fenix7xpro"/>
             <iq:product id="fenix7xpronowifi"/>
+            <iq:product id="fr245"/>
         </iq:products>
         <iq:permissions/>
         <iq:languages>
