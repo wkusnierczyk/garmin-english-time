@@ -8,6 +8,10 @@
     <jsonData id="FontCharsets">[
         {
             "fontId": "HoursFont",
+            "fontCharset": "efghilnorstuvwx"
+        },
+        {
+            "fontId": "MinutesFont",
             "fontCharset": "cefghiklnorstuvwxy' "
         }
     ]</jsonData>
