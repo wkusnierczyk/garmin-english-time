@@ -5,4 +5,29 @@
         <font id="MinutesFont" filename="AsapCondensed-Light-40.fnt" antialias="true" />
     </fonts>
 
+    <jsonData id="FontCharsets">[
+        {
+            "fontId": "HoursFont",
+            "fontCharset": "efghilnorstuvwx"
+        },
+        {
+            "fontId": "MinutesFont",
+            "fontCharset": "cefghiklnorstuvwxy' "
+        }
+    ]</jsonData>
+
+    <jsonData id="ScreenDiameters">{
+        "referenceDiameter": 280,
+        "targetDiameters": [
+            218, 
+            240, 
+            260, 
+            280, 
+            360, 
+            390, 
+            416, 
+            454
+        ]
+    }</jsonData>
+
 </resources>
