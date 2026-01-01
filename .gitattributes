@@ -28,3 +28,13 @@ resources-round-390x390/fonts/AsapCondensed-Bold-111.png filter=lfs diff=lfs mer
 resources-round-390x390/fonts/AsapCondensed-Light-56.png filter=lfs diff=lfs merge=lfs -text
 resources-round-416x416/fonts/AsapCondensed-Bold-119.png filter=lfs diff=lfs merge=lfs -text
 resources-round-454x454/fonts/AsapCondensed-Light-65.png filter=lfs diff=lfs merge=lfs -text
+resources-semi-octagon-176x176/fonts/AsapCondensed-Light-25.png filter=lfs diff=lfs merge=lfs -text
+resources-semi-octagon-176x176/fonts/AsapCondensed-Bold-50.png filter=lfs diff=lfs merge=lfs -text
+resources-semi-round-215x180/fonts/AsapCondensed-Light-26.png filter=lfs diff=lfs merge=lfs -text
+resources-rectangle-148x205/fonts/AsapCondensed-Light-21.png filter=lfs diff=lfs merge=lfs -text
+resources-rectangle-240x240/fonts/AsapCondensed-Bold-69.png filter=lfs diff=lfs merge=lfs -text
+resources-rectangle-240x240/fonts/AsapCondensed-Light-34.png filter=lfs diff=lfs merge=lfs -text
+resources-rectangle-148x205/fonts/AsapCondensed-Bold-42.png filter=lfs diff=lfs merge=lfs -text
+resources-rectangle-320x360/fonts/AsapCondensed-Bold-91.png filter=lfs diff=lfs merge=lfs -text
+resources-semi-round-215x180/fonts/AsapCondensed-Bold-51.png filter=lfs diff=lfs merge=lfs -text
+resources-rectangle-320x360/fonts/AsapCondensed-Light-46.png filter=lfs diff=lfs merge=lfs -text

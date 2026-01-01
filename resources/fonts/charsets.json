@@ -1,0 +1,10 @@
+[
+    {
+        "fontCharset": "efghilnorstuvwx",
+        "fontId": "HoursFont"
+    },
+    {
+        "fontCharset": "cefghiklnorstuvwxy' ",
+        "fontId": "MinutesFont"
+    }
+]
