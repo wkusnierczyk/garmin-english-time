@@ -1,16 +1,24 @@
 # Garmin English Time
 
-A minimalist, elegant, typography-focused Garmin Connect IQ watch face that displays the current time as English words.
+A minimalist, elegant, nerdy Garmin Connect IQ watch face that displays the current time as English words.
 
-![01:01](resources/graphics/01-01.png)
-![08:28](resources/graphics/08-28.png)
-![12:00](resources/graphics/12-00.png)
+![English Time](resources/graphics/EnglishTimeHero-small.png)
 
 Available from [Garmin Connect IQ Developer portal](https://apps.garmin.com/apps/edae124d-82cc-4572-9ed4-582def4df31b).
+
+> **Note**  
+> Swatch Time is part of a [collection of unconventional Garmin watch faces](https://github.com/wkusnierczyk/garmin-watch-faces). It has been developed for fun, as a proof of concept, and as a learning experience.
+> It is shared _as is_ as an open source project, with no commitment to long term maintenance and further feature development.
+>
+> Please use [issues](https://github.com/wkusnierczyk/garmin-english-time/issues) to provide bug reports or feature requests.  
+> Please use [discussions](https://github.com/wkusnierczyk/garmin-english-time/discussions) for any other comments.
+>
+> All feedback is wholeheartedly welcome.
 
 ## Contents
 
 * [English time](#english-time)
+* [Features](#features)
 * [Fonts](#fonts)
 * [Build, test, deploy](#build-test-deploy)
 
@@ -24,6 +32,19 @@ The English words include:
 * all numerals from `one` to `fifty nine`;
 * `o'clock` to indicate a full hour (zero minutes), as in `one o'clock`;
 * `oh` to indicate unit minutes (no tens), as in `one oh five`.
+
+## Features
+
+The English Time watch face supports the following features:
+
+|Screenshot|Description|
+|-|:-|
+|![](resources/graphics/08-28.png)|**12-hour time**<br /> 12-hour time is displayed as English words, without the AM/PM indicator. Hour word in a large, bold, white font in at the center, and minutes word(s) in a smaller, lighter, orange font below.|
+|![](resources/graphics/01-01.png)|**Unit minutes**<br /> Unit minutes (minutes below 10) are displayed with a leading `oh` word.|
+|![](resources/graphics/12-00.png)|**Full hour**<br /> Full hours (zero minutes) are displayed with the `o'clock` word instead of a minutes numeral.|
+
+**Note**  
+There are no user customization settings in this watch face.
 
 ## Fonts
 
@@ -83,15 +104,19 @@ Consult [Monkey C Visual Studio Code Extension](https://developer.garmin.com/con
 
 You can use the included `Makefile` to conveniently trigger some of the actions from the command line.
 
+
 ```bash
 # build binaries from sources
 make build
 
-# run unit tests
+# run unit tests -- note: requires the simulator to be running
 make test
 
-# run the simulation
+# run the simulation 
 make run
+
+# clean up the project directory
+make clean
 ```
 
 To sideload your application to your Garmin watch, see [developer.garmin.com/connect-iq/connect-iq-basics/your-first-app](https://developer.garmin.com/connect-iq/connect-iq-basics/your-first-app/).

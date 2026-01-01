@@ -38,3 +38,4 @@ resources-rectangle-148x205/fonts/AsapCondensed-Bold-42.png filter=lfs diff=lfs 
 resources-rectangle-320x360/fonts/AsapCondensed-Bold-91.png filter=lfs diff=lfs merge=lfs -text
 resources-semi-round-215x180/fonts/AsapCondensed-Bold-51.png filter=lfs diff=lfs merge=lfs -text
 resources-rectangle-320x360/fonts/AsapCondensed-Light-46.png filter=lfs diff=lfs merge=lfs -text
+resources/graphics/EnglishTimeHero-small.png filter=lfs diff=lfs merge=lfs -text
