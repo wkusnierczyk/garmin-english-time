@@ -40,10 +40,35 @@ The font development process was as follows:
 
 The table below lists all font sizes provided for the supported screen resolutions.
 
-| Element | Font                | 218 | 240 | 260 | 280 | 360 | 390 | 416 | 454 |
-| :------ | :------------------ | --: | --: | --: | --: | --: | --: | --: | --: |
-| Hours   | AsapCondensed bold  |  62 |  69 |  74 |  80 | 103 | 111 | 119 | 130 |
-| Minutes | AsapCondensed light |  31 |  34 |  37 |  40 |  51 |  56 |  59 |  65 |
+| Resolution |    Shape     | Element |        Font         | Size |
+| ---------: | :----------- | :------ | :------------------ | ---: |
+|  148 x 205 | rectangle    | Hours   | AsapCondensed bold  |   42 |
+|  148 x 205 | rectangle    | Minutes | AsapCondensed light |   21 |
+|  176 x 176 | semi-octagon | Hours   | AsapCondensed bold  |   50 |
+|  176 x 176 | semi-octagon | Minutes | AsapCondensed light |   25 |
+|  215 x 180 | semi-round   | Hours   | AsapCondensed bold  |   51 |
+|  215 x 180 | semi-round   | Minutes | AsapCondensed light |   26 |
+|  218 x 218 | round        | Hours   | AsapCondensed bold  |   62 |
+|  218 x 218 | round        | Minutes | AsapCondensed light |   31 |
+|  240 x 240 | round        | Hours   | AsapCondensed bold  |   69 |
+|  240 x 240 | rectangle    | Hours   | AsapCondensed bold  |   69 |
+|  240 x 240 | round        | Minutes | AsapCondensed light |   34 |
+|  240 x 240 | rectangle    | Minutes | AsapCondensed light |   34 |
+|  260 x 260 | round        | Hours   | AsapCondensed bold  |   74 |
+|  260 x 260 | round        | Minutes | AsapCondensed light |   37 |
+|  280 x 280 | round        | Hours   | AsapCondensed bold  |   80 |
+|  280 x 280 | round        | Minutes | AsapCondensed light |   40 |
+|  320 x 360 | rectangle    | Hours   | AsapCondensed bold  |   91 |
+|  320 x 360 | rectangle    | Minutes | AsapCondensed light |   46 |
+|  360 x 360 | round        | Hours   | AsapCondensed bold  |  103 |
+|  360 x 360 | round        | Minutes | AsapCondensed light |   51 |
+|  390 x 390 | round        | Hours   | AsapCondensed bold  |  111 |
+|  390 x 390 | round        | Minutes | AsapCondensed light |   56 |
+|  416 x 416 | round        | Hours   | AsapCondensed bold  |  119 |
+|  416 x 416 | round        | Minutes | AsapCondensed light |   59 |
+|  454 x 454 | round        | Hours   | AsapCondensed bold  |  130 |
+|  454 x 454 | round        | Minutes | AsapCondensed light |   65 |
+
 
 ---
 
